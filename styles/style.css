@@ -1,0 +1,95 @@
+/* Mulish Font From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* header section starts */
+header{
+    padding: 50px 135px;
+}
+/* navbar section starts */
+.logo{
+    
+}
+.logo-title{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.logo-travle{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar > ul{
+     display: flex;
+}
+.navbar li{
+    list-style: none;
+    margin-right: 44px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #424247;
+
+}
+.nav-home{
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 48px;
+    height: 56.008px;
+    margin-right: 20px;
+}
+/* navbar section ends */
+/* banner section starts */
+.banner{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) ), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 50px auto;
+
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-description{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 676px;
+    padding: 0 240px;
+    text-align: center;
+    line-height: 26px; /* 162.5% */
+}
+.banner-input-erea{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+/* banner section starts */
+/* header section ends */
