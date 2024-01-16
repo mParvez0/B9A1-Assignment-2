@@ -61,6 +61,9 @@ header{
 }
 /* navbar section ends */
 /* banner section starts */
+.banner-container{
+    display:flex;
+}
 .banner{
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) ), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     width: 1170px;
@@ -116,7 +119,55 @@ header{
     cursor: pointer;
 
 }
-
-
 /* banner section starts */
+
 /* header section ends */
+/* main section starts */
+.Popular-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    padding: 0 135px;
+    /* margin: 50px auto; */
+    justify-content: space-between;
+    
+    
+}
+.Popular-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.Popular-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Popular-img{
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+/* main section ends */
+
+
+
+
+/* media qurrys */
+
+/* Mobile Device Responsive */
+@media screen and (max-width:567px) {
+    .navbar,
+    .banner-input-erea,
+    .navbar > ul,
+    .banner-container
+    {
+        flex-direction: column;
+    }
+    header{
+        padding: 5px;
+    }
+   
+}
