@@ -1,0 +1,162 @@
+/* mobile responsive */
+@media screen and (max-width:576px){
+    header, .section2, .section3, .section4, .testing, .get-lost, footer{
+        padding: 20px;
+    }
+    .header-nav-title h2{
+        font-size: 20px;
+    }
+    .header-nav-title img{
+        width: 28px;
+        height: 28px;
+    }
+    .handelbar{
+        display: block;
+    }
+    .header-nav nav{
+        position: absolute;
+        left: -120%;
+        top: 50px;
+        width: 100%;
+        transition: 0.3s;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+    }
+    .header-nav #nav_chack:checked ~ nav{
+        left: 0;
+    }
+    .header-nav > nav ul {
+        display: block;
+    }
+    .header-nav > nav ul li{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .banner-input{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 300px;
+    }
+    .banner-desception p, #card , #card p{
+        width: 300px;
+    }
+    .banner-desception h2{
+        font-size: 30px;
+    }
+    .tours{
+        flex-direction: column;
+    }
+    .tours-section, 
+    .destination-title p,
+    .tours-section p,
+    .choose-title p,
+    .discounts-title p, .container-footer p{
+        width: 300px;
+    }
+    .tours-section h2{
+        font-size: 30px;
+    }
+    .tours-section >li{
+        width: 300px;
+    }
+    .tours-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .destination-title h2,
+    .choose-title h2, .discount-icon h2{
+        font-size: 20px;
+    }
+    .destination-img img{
+        width:100%;
+    }
+    .destination-img, .card-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .maldives{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .indonesia{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .srilanka{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .north-america{
+        grid-column: 1;
+        grid-row: 4;
+    }
+    .kashmir{
+        grid-column: 1;
+        grid-row: 5;
+    }
+    .bangladesh{
+        grid-column: 1;
+        grid-row:  6;
+    }
+    .bandarban{
+        grid-column: 1;
+        grid-row: 7;
+    }
+    .cadr1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .cadr2{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .cadr3{
+        grid-column: 1;
+        grid-row:3;
+    }
+    .discount-icon{
+        flex-wrap: wrap;
+    }
+    .discount1, .discount2{
+        width: 70%;
+        height: auto;
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+   #text{
+      max-width: 300px;
+    }
+    .item, .container, .newsletter{
+        flex-direction: column;
+    }
+    .container{
+        max-width:300px;
+    }
+    .container-img img{
+        max-width:100%;
+
+    }
+    .container-img p{
+        position: relative;
+        font-size: 15px;
+        top: -130px;
+    }
+    .container-text{
+        width: 300px;
+    }
+    .container-text h2 , p, li{
+       max-width: 400px;
+    }
+    .newsletter-pic img{
+        width: 400px;
+    }
+    .save-of {
+        bottom: 10pxpx;
+        left: 70px;
+    }
+    .form button{
+        width: 300px;
+    }
+
+}

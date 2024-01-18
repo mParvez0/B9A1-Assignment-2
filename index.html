@@ -3,128 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upscale-Travel</title>
+    <title>Upscale Travel</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
     <!-- CSS link Here -->
-    <link rel="stylesheet" href="styles/style.css">
+   <link rel="stylesheet" href="styles/style.css">
+   <!-- Responsive link Here -->
+   <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
     <!-- header section starts -->
     <header>
         <!-- navbar section starts -->
-        <nav class="navbar">
-            <div class="logo">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <h1 class="logo-title"> Upscale<span class="logo-travle"> Travel</span></h1>
+        <div class="header-nav">
+            <div class="header-nav-title">
+                <img src="/Images/Group 40071 (2).png" alt="">
+                <h2>Upscale <span>Travel</span></h2>
             </div>
+
+            <input type="checkbox" id="nav_chack" hidden>
+            <nav>
                 <ul>
-                    <li><a href=""><span class="nav-home"> Home</span></a></li>
+                    <li><a id="Home" href="">Home</a></li>
                     <li><a href="">Packages</a></li>
                     <li><a href="">Testimonial</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-        </nav>
-        <!-- navbar section ends -->
+            </nav>
+            <!-- navbar section ends -->
+          <!-- header section ends -->
+            </label>
+        </div>
         <!-- banner section starts -->
-        <div class="banner-container">
-            <div class="banner">
-                <h1 class="banner-title">Explore Your Travel</h1>
-                <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
-                <div class="banner-input-erea">
+        <div class="banner">
+            <div class="banner-desception">
+                <h2>Explore Your Travel</h2>
+                <p>Along with reading my own personal short stories about traveling the world, you’ll hear from other nomads who have unique anecdotes to share.</p>
+                <div class="banner-input">
                     <input type="text" placeholder="Where go">
-                    <input type="text" placeholder="When">
-                    <input type="text"placeholder="Select Type">
-                    <button class="btn-primary">Find Now</button>
+                    <select name="area" id="area">
+                        <option value="area">When</option>
+                    </select>
+                    <select name="area" id="area">
+                        <option value="area">Select Type</option>
+                    </select>
+                    <button><i class="fa fa-magnifying-glass"></i> Find Now</button>
                 </div>
             </div>
         </div>
         <!-- banner section ends -->
     </header>
-    <!-- header section ends -->
-    <!-- main section starts -->
+        <!-- header section ends -->
+        <!-- main section starts -->
     <main>
         <!-- Popular section starts -->
-        <section class="Popular-container">
-           <div class="Popular-text">
-            <h1 class="Popular-title">Our Popular Tours</h1>
-            <p class="Popular-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-            <ul class="Popular-description">
-                <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-            </ul>
-            <p class="Popular-description">Amet consectetur. Vulputate commodo felis molestie risus 
-                ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-                <button class="btn-primary">Read More</button>
-           </div>
-
-           <div class="Popular-img">
-            <img src="Images/Rectangle 4.png" alt="">
-           </div>
+        <section class="section1">
+            <div class="tours">
+                <div class="tours-section">
+                    <h2>Our Popular Tours</h2>
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus 
+                        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt.  </p>
+                        <button>Read More</button>
+                </div>
+                <div class="tours-img">
+                    <img src="Images/Rectangle 4.png" alt="">
+                </div>
+            </div>
         </section>
         <!-- Popular section ends -->
-        <!-- Destination section starts -->
-        <section class="Destination-container">
-            <div class="Destination-text">
-                <h1 class="Destination-title">Choose Your Destination</h1>
-                <p class="Destination-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
-            </div>
 
-            <div class="img-container">
-                <div class="row-1">
-                    <h1 class="Maldives">Maldives</h1>
-                    <h1 class="Indonesia">Indonesia</h1>
-                </div>
-                <div class="row-2">
-                    <h1 class="Srilanka">Srilanka</h1>
-                    <h1 class="North-America">North America</h1>
-                    <h1 class="Kashmir">Kashmir</h1>
-                </div>
-                <div class="row-3">
-                    <h1 class="Bangladesh">Bangladesh</h1>
-                    <h1 class="Bandarban">Bandarban</h1>
-                </div>
-            </div>
-        </section>
         <!-- Destination section starts -->
-        <!--  -->
-        <!-- Simple section starts -->
-        <section class="Simple-container">
-            <div class="Simple-text">
-             <h1 class="Simple-title">A Simple Perfect Place To Get Lost</h1>
-             <p class="Simple-description">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
-             <ul class="Simple-description-li">
-                 <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                 <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-             </ul>
-                 <button class="btn-primary">Read More</button>
+        <section class="section2">
+                <div class="destination-title">
+                    <h2>Choose Your Destination</h2>
+                    <p>Discover funny anecdotes that will make you laugh, inspiring love stories from the road that will warm your heart, wild travel tales that will have you glued to your screen, travel horror stories that will take you out of your comfort zone,</p>
+                </div>
+                <div class="destination-img">
+                    <div id="images" class="maldives">
+                        <h4>Maldives</h4>
+                        <img src="/Images/Rectangle 5.png" alt="">
+                    </div>
+                    <div id="images" class="indonesia">
+                        <h4>Indonesia</h4>
+                        <img src="/Images/Rectangle 8.png" alt="">
+                    </div>
+                    <div id="images" class="srilanka">
+                        <h4>Srilanka</h4>
+                        <img src="/Images/Rectangle 6.png" alt="">
+                    </div>
+                    <div id="images" class="north-america">
+                        <h4>North America</h4>
+                        <img src="/Images/Rectangle 7.png" alt="">
+                    </div>
+                    <div id="images" class="kashmir">
+                        <h4>Kashmir</h4>
+                        <img src="/Images/Rectangle 9.png" alt="">
+                    </div>
+                    <div id="images" class="bangladesh">
+                        <h4>Bangladesh</h4>
+                        <img src="/Images/Rectangle 11.png" alt="">
+                    </div>
+                    <div id="images" class="bandarban">
+                        <h4>Bandarban</h4>
+                        <img src="/Images/Rectangle 10.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <!-- Destination section ends -->
+
+        <!-- Why Choose Us section starts -->
+        <section class="section3">
+            <div class="choose-title">
+                <h2>Why Choose Us</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
             </div>
-            <div class="Simple-img">
-                <div class="Simple-img-title"><h1>Watch Our Mountain in Bangladesh</h1></div>
-               <!-- <img src="Images/Group 40089.png" alt=""> -->
-             
-            </div>
-         </section>
-        <!-- Simple section ends -->
-        <!-- Newsletter section starts  -->
-        <section class="Newsletter-container">
-            <div class="Newsletter-box">
-                <h1 class="Newsletter-title">Newsletter</h1>
-                <p class="Newsletter-description">Get your daily dose of travel news & tips. Sign up today!</p> <br><hr><br>
-                <input type="text" placeholder="Enter your name"><br>
-                <input type="email" placeholder="Enter your email"><br>
-                <button class="btn-sub">Subscribe</button>
-            </div>
-            <div class="Newsletter-img">
-                <img src="Images/Rectangle 8 (1).png" alt="">
+            <div class="card-grid">
+                <div id="card" class="cadr1">
+                    <img src="/Images/hotel 1.svg" alt="">
+                    <h4>Handpicked Hotels</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div id="card" class="cadr2">
+                    <img src="Images/map 1.svg" alt="">
+                    <h4>World Class Service</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
+                <div id="card" class="cadr3">
+                    <img src="Images/price-tag 1.svg" alt="">
+                    <h4>Best Price Guarantee</h4>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                </div>
             </div>
         </section>
-        <!-- Newsletter section ends  -->
+        <!-- Why Choose Us section ends -->
+
+        <!-- Simple Perfect section starts -->
+        <section class="get-lost">
+            <div class="container">
+                <div class="container-text">
+                    <h2>A Simple Perfect Place To Get Lost</h2>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
+                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                    <button>See More</button>
+                </div>
+                <div class="container-img">
+                    <img src="/Images/Group 40089.png" alt="">
+                    <p>Watch Our Mountain in <br> Bangladesh</p>
+                </div>
+            </div>
+        </section>
+        <!-- Simple Perfect section ends -->
+
+        <!-- Newsletter section starts -->
+        <section class="section5">
+            <div class="newsletter">
+                <div class="form">
+                    <h2>Newsletter</h2>
+                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                    <input placeholder="Enter Your Name" type="text" id="newsform">
+                    <input placeholder="Enter Your Email" type="email" name="" id="newsform">
+                    <button class="form-btn">Subscribe</button>
+                </div>
+                <div class="newsletter-pic">
+                    <img src="./Images/Rectangle 8 (1).png" alt="">
+                    <div class="save-of">
+                        <p>Travel.com</p>
+                        <h2>Save up to 70%</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter section ends -->
     </main>
-    <!-- main section ends -->
+      <!-- main section ends -->
     <!-- footer section starts -->
     <footer>
-
+        <section class="footer">
+            <div class="container-footer">
+                <div class="footer-logo">
+                <img src="./images/Group 40071 (2).png" alt="">
+                <h2>Upscale <span>Travel</span></h2>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam.  </p>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-github"></i>
+            </div>
+            <hr>
+            <div class="copy-right">
+                <p>2017, All Rights Reserved.</p>
+            </div>
+        </section>
     </footer>
     <!-- footer section ends -->
 </body>
